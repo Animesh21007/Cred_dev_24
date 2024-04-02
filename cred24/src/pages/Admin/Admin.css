@@ -1,0 +1,255 @@
+
+
+
+.adminPage{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .admin_style{
+      /* margin: auto;
+      width: 50%;
+      padding: 5px;
+      margin-top: 25%; */
+  }
+  .adminPage a{
+    margin-top: 100px;
+  }
+  
+  .admin_style button{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid purple;
+    background-color: rgb(55, 1, 55);
+    border-radius: 3px;
+    margin: 5px 15px;
+    width: 150px;
+    padding: 5px;
+    }
+  
+    .adminUser-qr-code{
+      height: 150px;
+      width : 150px;
+  }
+  
+  
+  
+  .adminUser{
+      /* background-color: #fff; */
+      color: #fff;
+      /* background-color: aqua; */
+      /* min-height: 80vh; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* padding-top:20vh ; */
+      padding-bottom: 15vh;
+  }
+  
+  
+  
+  
+  
+  
+  .pay-section{
+   height: 250px;
+    overflow-x: hidden;
+  }
+  
+  
+  
+  .adminUser .title{
+    margin-bottom: 5vh;
+  
+  }
+  .adminUser .card{
+    margin: 20px auto;
+    color: #fff;
+    max-width: 1000px;
+    width: 90%;
+    /* max-height: 400px; */
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+  }
+  @media(max-width:767px){
+    .adminUser .card{
+        margin: 3vh auto;
+    }
+  }
+  .adminUser .cart{
+    background-color: rgb(82, 28, 82);
+    /* padding: 4vh 5vh; */
+    /* border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem; */
+  }
+  @media(max-width:767px){
+    .adminUser .cart{
+        padding: 4vh;
+        /* border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem; */
+    }
+  }
+  .adminUser .summary{
+    background-color: rgb(61, 6, 61);
+    /* border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
+    padding: 5vh;
+   
+  }
+  @media(max-width:767px){
+    .adminUser .summary{
+    /* border-top-right-radius: unset;
+    border-bottom-left-radius: 1rem; */
+    }
+  }
+  
+  
+  .adminUser .summary .col-2{
+    padding: 0;
+  }
+  .adminUser .summary .col-10
+  {
+    padding: 0;
+  }.adminUser .row{
+    /* max-height: 600px; */
+    margin: 0;
+   
+  }
+  .adminUser .title b{
+    font-size: 1.5rem;
+  }
+  .adminUser .main{
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  }
+  .adminUser .col-2, .col{
+    padding: 0 1vh;
+    
+  }
+  /* .adminUser a{
+    padding: 0 1vh;
+  } */
+  
+  /* img{
+    width: 3.5rem;
+  } */
+  .adminUser .back-to-shop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .adminUser .back-to-shop button{
+    background: purple;
+    border: 2px solid rgb(97, 9, 97);
+    padding: 5px 5px;
+  }
+  .adminUser h5{
+    margin-top: 4vh;
+  }
+  .adminUser hr{
+    margin-top: 1.25rem;
+  }
+  .adminUser form{
+    padding: 2vh 0;
+  }
+  .adminUser select{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+  }
+  .adminUser input{
+    border: 3px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    /* margin-top: 2vh; */
+    margin-bottom: 1vh;
+    outline: none;
+    /* width: 100%; */
+    background-color: transparent;
+  }
+  .adminUser input:focus::-webkit-input-placeholder
+  {
+      /* color:transparent; */
+  }
+  .adminUser .btn{
+    background: purple;
+      border: 2px solid rgb(97, 9, 97);
+  
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0;
+  }
+  /* .adminUser .btn:focus{
+    
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: black;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none; 
+  } */
+  .adminUser .btn:hover{
+    /* color: white; */
+  }
+  .adminUser .back-to-shop a{
+    color: #fff; 
+    text-decoration: none;
+  }
+  .adminUser .back-to-shop a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  .adminUser #code{
+    /* background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253) , rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center; */
+  }
+  
+  .adminUser-link{
+      text-decoration-line: underline;
+      --tw-text-opacity: 1;
+      color: rgb(99 102 241/var(--tw-text-opacity));
+      font-weight: 600;
+      font-size: .875rem;
+      line-height: 1.25rem;
+      padding-left: 28px;
+  }
+  
+  .pay-rules {
+      line-height: 1.6;
+      color: #636b6f;
+      font-size: 20px;
+      margin: 0;
+      font-weight: 500;
+      font-family: "DM Sans", sans-serif;
+  }
+  
+  .pay-links{
+      margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 5px;
+    margin-right: 80px;
+  
+  }

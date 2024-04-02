@@ -1,0 +1,17 @@
+.event{
+    /* background-image: url('../../images/panel-transformed.png'); */
+    background-repeat: none;
+    background-size: cover;
+   
+}
+
+.eventCard{
+    background-image: url('../../images/window.png');
+    background-size: contain;
+    /* border: 14px solid red; */
+}
+
+.post{
+    font-family: "K2D";
+    /* font-size: clamp(1rem, -1.5rem + 8vw, 3rem); */
+}
